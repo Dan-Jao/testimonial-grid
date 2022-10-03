@@ -1,0 +1,27 @@
+@media(max-width: 1000px) {
+    ul {
+        grid-template-areas: "daniel daniel jonathan"
+            "jeanette patrick patrick"
+            "kira kira kira";
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .card.kira {
+        min-width: 100%;
+    }
+}
+
+@media(max-width: 610px) {
+    ul {
+        grid-template-areas: "daniel"
+            "jonathan"
+            "jeanette"
+            "patrick"
+            "kira";
+        grid-template-columns: auto;
+    }
+
+    ul .card {
+        width: 26rem;
+    }
+}
