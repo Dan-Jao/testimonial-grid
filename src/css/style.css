@@ -13,7 +13,7 @@ body {
     background-color: var(--neutral-light);
 }
 
-ul {
+main {
     display: grid;
     grid-template-areas: "daniel  daniel jonathan kira"
         "jeanette patrick patrick  kira";
@@ -25,7 +25,7 @@ ul {
     padding: 3rem;
 }
 
-ul .card {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,34 +34,34 @@ ul .card {
     border-radius: 1rem;
 }
 
-ul .card .container {
+.card .container {
     display: flex;
     align-items: center;
 }
 
-ul .card .container img {
+.card .container img {
     width: 3rem;
     border-radius: 5rem;
     margin-right: 1.5rem;
 }
 
-ul .card .container .info {
+.card .container .info {
     font-size: 1rem;
     font-weight: 500;
 }
 
-ul .card .container .info,
-ul .card .feedback {
+.card .container .info,
+.card .feedback {
     color: var(--neutral-light);
 
 }
 
-ul .card .container .info .verified,
-ul .card .feedback p {
+.card .container .info .verified,
+.card .feedback blockquote {
     opacity: 50%;
 }
 
-ul .card .feedback h2 {
+.card .feedback h2 {
     margin: 1.5rem 0;
 }
 
@@ -96,8 +96,8 @@ ul .card .feedback h2 {
     width: 26rem;
 }
 
-ul .card.jeanette .container .info,
-ul .card.jeanette .feedback {
+.card.jeanette .container .info,
+.card.jeanette .feedback {
     color: var(--card-2);
 }
 
@@ -113,7 +113,7 @@ ul .card.jeanette .feedback {
     width: 26rem;
 }
 
-ul .card.kira .container .info,
-ul .card.kira .feedback {
+.card.kira .container .info,
+.card.kira .feedback {
     color: var(--card-2);
 }

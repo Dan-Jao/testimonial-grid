@@ -1,5 +1,5 @@
 @media(max-width: 1000px) {
-    ul {
+    main {
         grid-template-areas: "daniel daniel jonathan"
             "jeanette patrick patrick"
             "kira kira kira";
@@ -12,7 +12,7 @@
 }
 
 @media(max-width: 610px) {
-    ul {
+    main {
         grid-template-areas: "daniel"
             "jonathan"
             "jeanette"
@@ -21,7 +21,7 @@
         grid-template-columns: auto;
     }
 
-    ul .card {
+    .card {
         width: 26rem;
     }
 }
